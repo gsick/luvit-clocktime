@@ -8,10 +8,12 @@ bin/%.luvit: src/%.c
 	mkdir -p bin
 	$(CC) ${CFLAGS} -Isrc -o $@ $^ ${LIBS}
 
-test:
+test: test-lua
+
+test-lua:
 	mkdir -p test/modules
-	ln -s ../../../luvit-clocktime/ test/modules/clocktime
-	luvit test/test.lua
+	ln -s ../luvit-clocktime/ test/modules/clocktime
+	${LUVIT} test/test.lua
 
 clean:
 	rm -fr bin

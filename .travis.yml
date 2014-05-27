@@ -2,7 +2,7 @@ language: c
 before_install:
   - ./test/install_luvit.sh
 script:
-  - make && make test
+  - make LUVIT=../bin/luvit && make test LUVIT=../bin/luvit
 branches:
   only:
     - 0.0.1
