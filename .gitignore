@@ -33,4 +33,5 @@ bin
 bin/*.luvit
 
 # Test
+test/modules
 test/tmp
