@@ -7,3 +7,4 @@ cd luvit-0.7.0 && ./configure --prefix=/home/travis/build/gsick
 make --silent PREFIX=/home/travis/build/gsick
 make install PREFIX=/home/travis/build/gsick
 export PATH=$PATH:/home/travis/build/gsick/bin
+cd ..
