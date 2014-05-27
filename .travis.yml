@@ -1,5 +1,6 @@
 language: c
-before_script: ./test/install_luvit.sh
+before_install:
+  - ./test/install_luvit.sh
 branches:
   only:
     - 0.0.1
