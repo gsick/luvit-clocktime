@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gsick/luvit-clocktime.svg?branch=0.0.1)](https://travis-ci.org/gsick/luvit-clocktime)
+
 luvit-clocktime
 ===============
 

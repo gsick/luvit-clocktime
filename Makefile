@@ -12,7 +12,7 @@ test: test-lua
 
 test-lua:
 	mkdir -p test/modules
-	ln -s ../luvit-clocktime/ test/modules/clocktime
+	ln -s ../../../luvit-clocktime/ test/modules/clocktime
 	${LUVIT} test/test.lua
 
 clean:
